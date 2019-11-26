@@ -10,3 +10,7 @@
 **Not inserting any URL and trying to explore anyway image:**
 
 ![](images/Capture2.PNG)
+
+
+**Inserting an invalid URL image:**
+![](images/Capture3.PNG)
