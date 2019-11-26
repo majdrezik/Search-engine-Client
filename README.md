@@ -8,15 +8,15 @@ Technologies used:
 
 
 
-**GUI image:**
+**GUI**
 
 ![Image of the GUI](images/Capture.PNG)
 
 
-**Not inserting any URL and trying to explore anyway image:**
+**Not inserting any URL and trying to explore anyway**
 
 ![](images/Capture2.PNG)
 
 
-**Inserting an invalid URL image:**
+**Inserting an invalid URL**
 ![](images/Capture3.PNG)
