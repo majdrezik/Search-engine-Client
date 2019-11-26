@@ -7,6 +7,7 @@ Technologies used:
 4) Bootstrap
 
 
+
 **GUI image:**
 
 ![Image of the GUI](images/Capture.PNG)
