@@ -9,4 +9,4 @@
 
 **Not inserting any URL and trying to explore anyway image:**
 
-(images/Capture2.PNG)
+![](images/Capture2.PNG)
