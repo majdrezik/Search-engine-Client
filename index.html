@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    //links to favicon
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -11,7 +11,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -19,36 +19,46 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-       //favicon
+
     <link rel="shortcut icon" href="images/favicon.ico" />
     <title>Navigate with Majd</title>
-    
+
     <style>
         .center {
             margin: auto;
             width: 50%;
-            padding: 15vh;
+            padding: 6vh;
             align-self: auto;
         }
 
         .btn-group button {
 
-            color:black; /* White text */
-            padding: 10px 24px; /* Some padding */
-            cursor: pointer; /* Pointer/hand icon */
-            float: left; /* Float the buttons side by side */
+            color: black;
+            /* White text */
+            padding: 10px 24px;
+            /* Some padding */
+            cursor: pointer;
+            /* Pointer/hand icon */
+            float: left;
+            /* Float the buttons side by side */
         }
 
-            /* Clear floats (clearfix hack) */
+        /* Clear floats (clearfix hack) */
         .btn-group:after {
             content: "";
             clear: both;
@@ -56,10 +66,11 @@
         }
 
         .btn-group button:not(:last-child) {
-            border-right: none; /* Prevent double borders */
+            border-right: none;
+            /* Prevent double borders */
         }
 
-   
+
 
 
         select:hover {
@@ -70,107 +81,170 @@
 
         .text_box {
             border-radius: 25px;
-            border: 2px solid #609;
-            padding: 20px; 
+            border: 2px solid rgb(63, 143, 209);
+            padding: 20px;
             width: 200px;
-            height: 15px;    
+            height: 15px;
         }
-
-
     </style>
 
 </head>
 
 <body>
 
-        <div class="input-group mb-2 center w-100" style="background-color:silver;">
+    <div class="input-group mb-2 center w-100" style="background-color:silver;">
 
-            <div id="logo" style="padding: 7vh; text-align: center; width: 100%; 
+        <div id="logo" style="padding: 7vh; margin-bottom: 5vh; text-align: center; width: 100%; 
             font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;">
-                <h1> N A V I G A T E </h1>
-                <h1 style="width: 100%;">WITH MAJD</h1>
-           </div>
-            <div class="input-group-prepend"></div>
-                <input autofocus id="input" type="url" required class="form-control m-4 text_box"
-                 style="text-align: center; width: 100%; height: 10vh; 
+            <h1
+                style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                N A V I G A T E </h1>
+            <h3
+                style="width: 100%; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                W I T H</h3>
+            <h1 MAJD
+                style="width: 100%; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                M A J D </h1>
+        </div>
+
+                    <!--to make it centered-->
+        <div style=" margin:auto; display:block;">
+            <a href="https://moodle.braude.ac.il/" target="_blank">
+                <button type="button" class="btn  " style="background-color: black; color: white; font-size: large; border-radius: 25px;">
+                    <i class="fa fa-maxcdn"></i>
+                    <strong>moodle</strong></button>
+            </a>
+
+            <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
+                <button type="button" class="btn" style="background-color: #d93025; color: white; font-size: large;border-radius: 25px">
+                    <i class="fa fa-envelope"></i>
+                    <strong>Gmail</strong></button>
+            </a>
+            <a href="https://translate.google.com/" target="_blank">
+                <button type="button" class="btn" style="background-color: white; color: #4284f3; font-size: large;border-radius: 25px">
+                    <i class="fa fa-language"></i>
+                    <strong>Translate</strong></button>
+            </a>
+     
+
+
+            <a href="https://info.braude.ac.il/yedion/fireflyweb.aspx?appname=BSHITA&prgname=login" target="_blank">
+                <button type="button" class="btn btn-info"
+                    style="background-color: #1177d1; color: white; font-size: large;border-radius: 25px">
+                    <i class="fa fa-bold"></i>
+                    <strong>Braude</strong></button>
+            <a href="https://m.youtube.com/" target="_blank">
+                <button type="button" class="btn"
+                    style="background-color:rgb(255, 0, 0) ; color: white; font-size: large;border-radius: 25px">
+                    <i class="fa fa-youtube"></i>
+                    <strong>YouTube</strong></button>
+            </a>
+            <a href="https://www.linkedin.com/feed/" target="_blank">
+                <button type="button" class="btn" style="background-color: white; color: #0073b1; font-size: large;border-radius: 25px">
+                    <i class="fa fa-linkedin"></i>
+                    <strong>LinkedIn</strong></button>
+            </a>
+            <a href="https://github.com/majdrezik" target="_blank">
+                <button type="button" class="btn" style="background-color: #24292e; color: white; font-size: large;border-radius: 25px">
+                    <i class="fa fa-github"></i>
+                    <strong>GitHub</strong></button>
+            </a>
+
+            <a href="https://majdrezik.com/" target="_blank">
+                <button type="button" class="btn  " style="background-color:white ; color:#1177d1; font-size: large; border-radius: 25px;">
+                    <img src="images/favicon.ico" style="height: 2.4vh; width: 1.2vw; margin-bottom: 0.4vh;">
+                    <strong>Majd Rezik</strong></button>
+            </a>
+
+        </div>
+
+        <div class="input-group-prepend"></div>
+        <input autofocus id="input" type="url" required class="form-control m-4 text_box" style="text-align: center; width: 100%; height: 10vh; 
                  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-                 font-size:large;" placeholder="Insert URL here, e.g., https://example.com" aria-label="Username" aria-describedby="basic-addon1"
-                 autocomplete="on" spellcheck="false" pattern="https://.*" >
-    
-                <button id="explore" type="button" class="btn btn-success" style="width: 50%; margin-left: 0.6vw;" onclick="redirect()">
-                    <div style="text-align: center; font-size: larger;"> <strong>E X P L O R E</strong> </div>
-                    <div>(or press Enter)</div>
-                </button>
-                <button id="clear" type="button" class="btn btn-danger row" style="width: 50%;" onclick="reset()">
-                    <div style="font-size: larger;"> <strong> C L E A R </strong></div>
-                    <div> (or press Esc.) </div>
-                </button>
-            </div>
+                 font-size:large; border-radius: 25px;" placeholder="Insert URL here, e.g., https://example.com" aria-label="Username"
+            aria-describedby="basic-addon1" autocomplete="on" spellcheck="false" pattern="https://.*">
 
-
+        <button id="explore" type="button" class="btn btn-success" style="width: 50%; margin-left: 0.6vw; border-radius: 25px 0px 0px 25px;"
+            onclick="redirect()">
+            <div style="text-align: center; font-size: larger; "> <strong>E X P L O R E</strong> </div>
+            <div>(or press Enter)</div>
+        </button>
+        <button id="clear" type="button" class="btn btn-danger row" style="width: 50%; border-radius: 0px 25px 25px 0px;" onclick="reset()">
+            <div style="font-size: larger;"> <strong> C L E A R </strong></div>
+            <div> (or press Esc.) </div>
+        </button>
+    </div>
 
     <script>
         /*
             enable 'ENTER' and 'ESCAPE' keys to work as 'EXPLORE' and 'CLEAR' accordingly.
         */
-
         // Get the input field
         var input = document.getElementById("input");
         // Execute a function when the user releases a key on the keyboard
-        input.addEventListener("keyup", function(event) {
-        // Number 13 is the "Enter" key on the keyboard
-        if (event.keyCode === 13) {
-            // Cancel the default action, if needed
-            event.preventDefault();
-            // Trigger the button element with a click
-            document.getElementById("explore").click();
-        }
-        // Number 27 is the "Escape" key on the keyboard
-        if (event.keyCode === 27) {
-            // Cancel the default action, if needed
-            event.preventDefault();
-            // Trigger the button element with a click
-            document.getElementById("clear").click();
-        }
+        input.addEventListener("keyup", function (event) {
+            // Number 13 is the "Enter" key on the keyboard
+            if (event.keyCode === 13) {
+                // Cancel the default action, if needed
+                event.preventDefault();
+                // Trigger the button element with a click
+                document.getElementById("explore").click();
+            }
+            // Number 27 is the "Escape" key on the keyboard
+            if (event.keyCode === 27) {
+                // Cancel the default action, if needed
+                event.preventDefault();
+                // Trigger the button element with a click
+                document.getElementById("clear").click();
+            }
         });
 
-        function reset(){
+        function reset() {
             var resetButton = document.getElementById("input");
-            if(resetButton){
-                resetButton.value= "";
+            if (resetButton) {
+                resetButton.value = "";
             }
         }
-        function redirect(){
+        function redirect() {
             let url = document.getElementById("input").value;
-            let flag1 = false, flag2 = false, flag3=false;
+            let flag1 = false, flag2 = false, flag3 = false;
             let hasEnding = false;
             let hasStrating = false;
 
-            if(url == ''){
-                flag1=true;
-                alert("Please, insert a valid URL") 
-                } 
+            if (url == '') {
+                flag1 = true;
+                alert("Please, insert a valid URL")
+            }
 
-                /*
-                    if the user forgot to insert 'https://' or '.com' and the url is valid, 'https://' and '.com' are added automatically.
-                    NOTICE: sites which don't end with '.com' will be ignored :: (MVP)   
-                */
+            /*
+                if the user forgot to insert 'https://' or '.com' and the url is valid, 'https://' and '.com' are added automatically.
+                NOTICE: sites which don't end with '.com' will be ignored :: (MVP)   
+            */
 
-            if(!validateUrl(url) && !flag1 ){
+            if (!validateUrl(url) && !flag1) {
                 flag2 = true;
 
-                if(url.includes(" ")){
-                    
+                if (url.includes(" ")) {
+
                 }
 
-                if(!url.includes('.com')){
-                    url = url + '.com';
-                    hasEnding = true;        
+                if (!url.includes('.com')) {
+                    if (url == "braude") {
+                        url += ".ac.il"
+                    } else {
+                        if (url == "moodle") {
+                            url += ".braude.ac.il"
+                        }
+                        else {
+                            url = url + '.com';
+                        }
+                        hasEnding = true;
+                    }
                 }
-                if(!url.includes('https://')){
+                if (!url.includes('https://')) {
                     url = 'https://' + url;
                 }
-                if(!validateUrl(url)){
+                if (!validateUrl(url)) {
                     flag3 = true;
                     reset();
                     alert("URL is invalid!");
@@ -178,22 +252,31 @@
                     window.open(url, '_blank');
                 }
             }
-            if(!flag1 && !flag3){
+
+            //            alert(validateUrl(url));
+            if (validateUrl(url)) {
+                if (!url.includes('http://') && !url.includes('https://')) {
+                    url = 'http://' + url;
+                }
                 window.open(url, '_blank');
             }
         }
 
         //regex to check if the url is valid.
         function validateUrl(value) {
-            return /^(?:(?:(?:https?|ftp):)?\/\/)(?:\S+(?::\S*)?@)?(?:(?!(?:10|127)(?:\.\d{1,3}){3})(?!(?:169\.254|192\.168)(?:\.\d{1,3}){2})(?!172\.(?:1[6-9]|2\d|3[0-1])(?:\.\d{1,3}){2})(?:[1-9]\d?|1\d\d|2[01]\d|22[0-3])(?:\.(?:1?\d{1,2}|2[0-4]\d|25[0-5])){2}(?:\.(?:[1-9]\d?|1\d\d|2[0-4]\d|25[0-4]))|(?:(?:[a-z\u00a1-\uffff0-9]-*)*[a-z\u00a1-\uffff0-9]+)(?:\.(?:[a-z\u00a1-\uffff0-9]-*)*[a-z\u00a1-\uffff0-9]+)*(?:\.(?:[a-z\u00a1-\uffff]{2,})))(?::\d{2,5})?(?:[/?#]\S*)?$/i.test(value);
+
+            return /(https?:\/\/)?([\w\-])+\.{1}([a-zA-Z]{2,63})([\/\w-]*)*\/?\??([^#\n\r]*)?#?([^\n\r]*)/g.test(value);
         }
 
     </script>
 
-<p style="text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular',
+    <p style="text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular',
      'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin-top: 5vh;">
-    <strong> &copy; 2019 majdrezik.com </strong>
- </p>
+        <strong> &copy; 2019 
+            <a   href="https://www.majdrezik.com" target="_blank" style="text-decoration: none;"> majdrezik.com </a> 
+        </strong>
+    </p>
 
 </body>
+
 </html>
