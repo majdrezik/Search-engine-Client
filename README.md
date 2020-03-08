@@ -13,13 +13,13 @@ Technologies used:
 
 **GUI**
 
-![Image of the GUI](images/Capture.PNG)
+![Image of the GUI](images/CaptureS.PNG)
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 **Not inserting any URL and trying to explore anyway**
 
-![](images/Capture2.PNG)
+![](images/Capture2S.PNG)
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
