@@ -13,7 +13,7 @@ Technologies used:
 
 **GUI**
 
-![Image of the GUI](images/capture.png)
+![Image of the GUI](images/capture.PNG)
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------
